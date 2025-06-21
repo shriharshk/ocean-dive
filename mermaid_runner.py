@@ -52,10 +52,20 @@ class Obstacle(pygame.sprite.Sprite):
 class Game:
     def __init__(self):
         pygame.init()
+        pygame.mixer.init()
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         pygame.display.set_caption('Mermaid Runner')
         self.clock = pygame.time.Clock()
         self.running = True
+
+        # Load music from the Dusty Chip I Music Library (placeholder path)
+        # Place one of the asset's OGG files in the project directory
+        # and replace 'dusty_title.ogg' with the actual filename.
+        try:
+            pygame.mixer.music.load('dusty_title.ogg')
+            pygame.mixer.music.play(-1)
+        except pygame.error:
+            print('Background music file not found.')
 
         self.player = Player()
         self.all_sprites = pygame.sprite.Group(self.player)

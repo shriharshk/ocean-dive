@@ -27,3 +27,5 @@ Import the following free assets from the GameMaker Marketplace:
    - Use this to smoothly animate sprites following predefined paths. Apply it in the mermaid's Draw event or when spawning obstacles that travel along curves.
 2. **Dijkstra Path Finding** – <https://marketplace.gamemaker.io/assets/5726/dijkstra-path-finding>
    - Provides scripts for grid-based navigation. Use these scripts in `chaser_step.gml` so the octopus can navigate around obstacles while pursuing the player.
+3. **Dusty Chip I Music Library** – <https://marketplace.gamemaker.io/assets/438/dusty-chip-i-music-library>
+   - Import these chiptune tracks and play one in `controller_create.gml` using `audio_play_sound()` for background music.
