@@ -1,2 +1,8 @@
 # ocean-dive
-Core Gameplay Endless Runner Style: Similar to Temple Run, the game should be an endless runner with swipe-based controls.  Character: Replace the main character (Jack) with a mermaid. The mermaid swims forward through an underwater world.  Objective: Avoid underwater obstacles, collect pearls, and escape from a chasing sea predator.
+
+This repository contains prototypes for the **Mermaid Runner** endless runner game.
+
+- `mermaid_runner.py` – A Pygame prototype.
+- `gamemaker/` – GML scripts for a GameMaker implementation.
+
+Use the GameMaker scripts to create objects (`obj_player`, `obj_obstacle`, `obj_controller`, `obj_chaser`) and attach the code to their events as explained in `gamemaker/README.md`. The GameMaker implementation also makes use of free Marketplace assets: **Draw Sprite Along Path**, **Dijkstra Path Finding**, and **Dusty Chip I Music Library**.
