@@ -18,3 +18,12 @@ This folder contains simple GameMaker Language (GML) scripts to build the Mermai
 2. Attach the relevant scripts to their respective events.
 3. Place `obj_controller` in the starting room to manage obstacle spawning and game state.
 4. Run the game to test the endless runner mechanics.
+
+## Marketplace Assets
+
+Import the following free assets from the GameMaker Marketplace:
+
+1. **Draw Sprite Along Path** – <https://marketplace.gamemaker.io/assets/1602/draw-sprite-along-path>
+   - Use this to smoothly animate sprites following predefined paths. Apply it in the mermaid's Draw event or when spawning obstacles that travel along curves.
+2. **Dijkstra Path Finding** – <https://marketplace.gamemaker.io/assets/5726/dijkstra-path-finding>
+   - Provides scripts for grid-based navigation. Use these scripts in `chaser_step.gml` so the octopus can navigate around obstacles while pursuing the player.

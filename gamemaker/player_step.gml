@@ -9,3 +9,7 @@ if (keyboard_check(vk_up)) {
 
 y += vertical_speed;
 y = clamp(y, 0, room_height - sprite_height);
+
+// After importing the Draw Sprite Along Path asset, you can animate the
+// mermaid along a curved path in the Draw event using the provided
+// `draw_sprite_along_path()` script.
