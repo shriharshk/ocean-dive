@@ -28,4 +28,8 @@ Attach these scripts to your prefabs:
 4. **Obstacle** prefab with a `Collider2D` set as Trigger using `Obstacle`.
 5. **Chaser** object with the `Chaser` script, assigning the Player as target.
 
+## Free Ocean Assets
+
+For environment art, models, and particle effects, browse the [Unity Asset Store's free ocean assets](https://assetstore.unity.com/search#q=ocean&nf-ec_price_filter=0...0). Import any packs you like through **Unity Hub** before testing the scene.
+
 Press **Play** to test the endless running and obstacle spawning.
